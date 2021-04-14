@@ -1,17 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
 /* line 2, ../../../src/assets/scss/partials/_global.scss */
 body,
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto' , sans-serif;
   font-weight: 400;
 }
 
 /* line 7, ../../../src/assets/scss/partials/_global.scss */
 a {
-  color: #993938;
+  color: #1f1a1a;
 }
 /* line 9, ../../../src/assets/scss/partials/_global.scss */
 a:hover {
-  color: #bc4948;
+  color: #413d3d;
   text-decoration: none;
 }
 
@@ -24,7 +27,7 @@ a:hover {
 /* line 20, ../../../src/assets/scss/partials/_global.scss */
 .light-gray,
 *.light-gray {
-  background-color: #d7e4eb;
+  background-color: #ecf0f3d1;
   color: #0e171c;
 }
 
@@ -397,20 +400,20 @@ p.project-description {
 /* line 101, ../../../src/assets/scss/partials/_type.scss */
 .xlarge,
 *.xlarge {
-  font-size: 6em;
+  font-size: 5em;
 }
 @media screen and (max-width: 768px) {
   /* line 101, ../../../src/assets/scss/partials/_type.scss */
   .xlarge,
   *.xlarge {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 }
 @media screen and (max-width: 320px) {
   /* line 101, ../../../src/assets/scss/partials/_type.scss */
   .xlarge,
   *.xlarge {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 
@@ -423,7 +426,7 @@ p.project-description {
   /* line 112, ../../../src/assets/scss/partials/_type.scss */
   .large,
   *.large {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 @media screen and (max-width: 320px) {
@@ -456,7 +459,7 @@ p.project-description {
 
 /* line 133, ../../../src/assets/scss/partials/_type.scss */
 .kern-loose {
-  letter-spacing: 0.25em;
+  letter-spacing: 0.15em;
   margin-right: -0.25em;
 }
 
@@ -474,7 +477,7 @@ p.project-description {
 
 /* line 147, ../../../src/assets/scss/partials/_type.scss */
 .title {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Varela', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -524,7 +527,7 @@ blockquote {
 /* line 187, ../../../src/assets/scss/partials/_type.scss */
 .quote .author {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto' , sans-serif;
   text-transform: uppercase;
   font-size: 0.8em;
   font-style: normal;
@@ -841,27 +844,27 @@ nav ul li {
 }
 /* line 14, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(1) {
-  background-color: #93b7c9;
+  background-color: #ffc933;
 }
 /* line 17, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(2) {
-  background-color: #71a0b8;
+  background-color: #fb0;
 }
 /* line 20, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(3) {
-  background-color: #5289a4;
+  background-color: #cc9600;
 }
 /* line 23, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(4) {
-  background-color: #416c82;
+  background-color: #997000;
 }
 /* line 26, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(5) {
-  background-color: #305060;
+  background-color: #664b00;
 }
 /* line 29, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(6) {
-  background-color: #1f343e;
+  background-color: #332500;
 }
 /* line 32, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li:nth-child(7) {
@@ -879,7 +882,7 @@ nav ul li:hover {
 }
 /* line 42, ../../../src/assets/scss/partials/_nav.scss */
 nav ul li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.884);
   display: block;
   padding-left: 0;
   position: relative;
@@ -1013,7 +1016,7 @@ nav ul li a:hover, nav ul li a:focus {
 /* line 1, ../../../src/assets/scss/partials/_hero.scss */
 #top-hero {
   background-image: url("../img/hero-bg-blurry.jpg"); 
-  background-image: url("../img/background_dark.jpg");
+  background-image: url("../img/background_blur_dark.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-attachment: fixed;
