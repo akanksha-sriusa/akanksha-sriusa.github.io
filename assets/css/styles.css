@@ -966,7 +966,7 @@ nav ul li a:hover, nav ul li a:focus {
   position: absolute;
   display: block;
   content: '';
-  background: #f9fbfc;
+  background: #121213;
 }
 /* line 116, ../../../src/assets/scss/partials/_nav.scss */
 #nav-toggle span:before {
@@ -1016,7 +1016,7 @@ nav ul li a:hover, nav ul li a:focus {
 /* line 1, ../../../src/assets/scss/partials/_hero.scss */
 #top-hero {
   background-image: url("../img/hero-bg-blurry.jpg"); 
-  background-image: url("../img/background_blur_dark.jpg");
+  background-image: url("../img/background_4.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-attachment: fixed;
@@ -1025,7 +1025,7 @@ nav ul li a:hover, nav ul li a:focus {
   max-height: 800px;
   height: 0;
   padding-bottom: 60%;
-  color: #f9fbfc;
+  color: #332500;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -1459,7 +1459,7 @@ section {
 
 /* line 50, ../../../src/assets/scss/partials/_modules.scss */
 #section-c-mod-1 {
-  background-image: url("../img/stock-02.jpg");
+  background-image: url("../img/quote_rename.jpg");
   -webkit-background-size: cover;
           background-size: cover;
 }
